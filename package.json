@@ -1,0 +1,21 @@
+{
+  "name": "seashells",
+  "displayName": "SeaShells",
+  "description": "A color theme based off of the Sea Shells color theme for VIM.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sea Shell",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sea Shell-color-theme.json"
+      }
+    ]
+  }
+}
